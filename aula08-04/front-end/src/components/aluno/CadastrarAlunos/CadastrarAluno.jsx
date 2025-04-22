@@ -27,12 +27,13 @@ function CadastrarAluno({ onCadastro }) {
       setSenha('');
       // Dispara o gatilho para ListarAlunos recarregar
       onCadastro(); // Chama a função passada via prop, que é handleRefresh do componente pai
+      //console.log(onCadastro());
 
     } catch (error) {
       setMensagem(error.response.data.mensagem || 'Erro ao cadastrar aluno.'); // Mensagem de erro caso o cadastro falhe
     }
   }
-
+console.log(matricula)
   return (
     <div className={styles.container}>
       <h2>Cadastrar Aluno</h2>

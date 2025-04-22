@@ -1,0 +1,21 @@
+#tipos p {
+    margin: 1rem auto;
+  }
+  
+  #tipos table {
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+  
+  #tipos table th {
+    background-color: var(--thead-footer-bgcolor);
+  }
+  
+  #tipos table th,
+  td {
+    border: 1px solid black;
+    padding: 1rem 2.5rem 1rem 1rem;
+  
+    text-align: left;
+  }
+  
