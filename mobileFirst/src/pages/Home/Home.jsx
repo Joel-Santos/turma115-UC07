@@ -5,13 +5,11 @@ import Main from "../../components/Main/Main";
 
 function Home() {
     return (
-        <>
-             <Header />
+        <div className={styles.container}>
+            <Header />
             <Main />
             <Footer />
-           
-        </>
-
+        </div>
 
     );
 }

@@ -1,9 +1,28 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
 
-@media screen and (min-width:668px) {
-    main{
+@media screen and (min-width:40rem) {
+    header {
+        padding: 2rem;
+        width: 100%;
+    }
+    main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-    } 
+        margin-top: 2rem;
+    }
+    .container footer {
+        background-color: aquamarine;
+        position: fixed;
+        bottom: 0;
+
+        width: 100%;
+    }
 }

@@ -7,7 +7,7 @@ import Tipos from "../Tipos/Tipos";
 
 function Main(){
     return(
-        <main >
+        <main>
             <Intro />
             <Tipos />
             <Noticias />
