@@ -10,7 +10,6 @@ h1{
     font-size: 3rem;
     color:#fff;
     margin-bottom: 2rem;
-
 }
 
 input{
@@ -21,7 +20,6 @@ input{
     max-width: 300px;
     outline: none;
 }
-
 button{
 background-color: #ff9800;
 padding: 10px;
@@ -30,7 +28,6 @@ border-radius:0 20px 20px 0;
 font-weight: bold;
 cursor: pointer;
 }
-
 button:hover{
 background-color: #f57c00;
 }

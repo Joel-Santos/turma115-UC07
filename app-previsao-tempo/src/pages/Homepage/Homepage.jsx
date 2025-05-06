@@ -17,7 +17,7 @@ function Homepage(){
     }
     return(
         <div className="container">
-            <h1> Componente Homepage </h1>
+            <h1> Previsão do Tempo</h1>
             <input ref={inputRef} type="text"  placeholder="Digite a cidade"/>
             <button onClick={searchCity}>Buscar</button>
 
