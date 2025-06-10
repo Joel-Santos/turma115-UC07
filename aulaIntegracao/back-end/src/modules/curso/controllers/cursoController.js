@@ -1,4 +1,4 @@
-const Curso = require('../../curso/models/cursoModel');
+const {Aluno, Curso} = require('../../index');
 class CursoController {
 
     static async criar(req, res) {
