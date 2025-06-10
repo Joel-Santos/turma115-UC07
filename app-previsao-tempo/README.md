@@ -1,12 +1,34 @@
-# React + Vite
+# Conteúdo da Aula: Aplicação de Previsão do Tempo com React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nesta aula, desenvolvemos uma aplicação de previsão do tempo utilizando React com Vite, explorando conceitos essenciais de desenvolvimento web moderno.
 
-Currently, two official plugins are available:
+## Tópicos Abordados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Configuração do Projeto:**  
+    Criação de um novo projeto React utilizando o Vite para obter um ambiente de desenvolvimento rápido e eficiente.
 
-## Expanding the ESLint configuration
+- **Estrutura de Componentes:**  
+    Organização da aplicação em componentes reutilizáveis, seguindo as boas práticas do React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Consumo de API:**  
+    Integração com a API do OpenWeather para buscar e exibir dados meteorológicos em tempo real.  
+    [Documentação da API OpenWeather](https://openweathermap.org/api)
+
+- **Gerenciamento de Estado:**  
+    Utilização do `useState` e `useEffect` para controlar e atualizar as informações exibidas na interface.
+
+- **Estilização:**  
+    Aplicação de estilos para melhorar a apresentação visual da aplicação.
+
+- **Boas Práticas:**  
+    Discussão sobre a importância do ESLint e como configurar regras para manter a qualidade do código.
+
+## Objetivos de Aprendizagem
+
+- Compreender a estrutura básica de um projeto React com Vite.
+- Aprender a consumir APIs externas e manipular dados no React.
+- Praticar o uso de hooks para gerenciamento de estado e efeitos colaterais.
+- Aplicar estilos e boas práticas de desenvolvimento.
+
+---
+Caso tenha dúvidas, revise o código desenvolvido em aula e consulte a documentação oficial do [React](https://react.dev/), do [Vite](https://vitejs.dev/) e da [API OpenWeather](https://openweathermap.org/api).
