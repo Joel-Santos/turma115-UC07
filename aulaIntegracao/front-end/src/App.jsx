@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import ListarCursos from './components/ListarCursos/ListarCursos'
+import React from 'react'
+import PageCurso from './pages/CursoPage/CursoPage'
 
 function App() {
- 
+
   return (
     <>
       <h1>Projeto integração front + back</h1>
-      <ListarCursos/>
+      <PageCurso />
     </>
   )
 }
 
-export default App
+export default App;
