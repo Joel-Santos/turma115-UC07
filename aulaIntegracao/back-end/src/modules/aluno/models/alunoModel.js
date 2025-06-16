@@ -10,7 +10,7 @@ const AlunoModel = sequelize.define('Aluno', {
         validate: {
             is: {
                 args: /^[A-Z]\d{5}$/,
-                msg: 'a matricula deve ter a primeira letra maiúscula seguida de 6 digitos númericos'
+                msg: 'a matricula deve ter a primeira letra maiúscula seguida de 5 digitos númericos'
             }
         }
     },
