@@ -1,5 +1,6 @@
 import React from 'react'
 import PageCurso from './pages/CursoPage/CursoPage'
+import PageAluno from './pages/AlunoPage/AlunoPage';
 
 function App() {
 
@@ -7,6 +8,9 @@ function App() {
     <>
       <h1>Projeto integração front + back</h1>
       <PageCurso />
+      <hr />
+      <PageAluno />
+
     </>
   )
 }
